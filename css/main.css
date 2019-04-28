@@ -1,3 +1,76 @@
+/*#img {*/
+  /*width: 120px;*/
+  /*padding-bottom: 70px;*/
+/*}*/
 body {
-  font-family: 'Reenie Beanie', cursive;
+  font-family: 'Nanum Myeongjo', serif;
+
+}
+ul, li{
+  display: block;
+  padding: 0;
+  margin: 0;
+}
+h1,h2,h3,h4,h5{
+  font-weight: 700;
+  color: #000000;
+}
+h2{
+  text-align: center;
+}
+/*p , div, a, span{*/
+  /*line-height: 1.3em;*/
+/*}*/
+/*first display*/
+header{
+  background-color: #efefef;
+  color: #010101;
+  padding-top: 58px;
+  padding-bottom: 105px;
+}
+.menu{
+margin: 0;
+}
+.menu__item{
+  margin: 0 57px;
+}
+.menu__item a{
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  text-decoration: none;
+}
+.offer{
+  margin-top: 117px;
+}
+.offer__title{
+  font-size: 32px;
+  margin-bottom: 6px;
+}
+.offer__intro{
+  font-size: 20px;
+  line-height: 1.3em;
+}
+.offer__text{
+  font-size: 16px;
+  margin-top: 15px;
+  color: #555555;
+  width: 400px;
+}
+.icons__item{
+  margin-right: 30px;
+}
+.icons__item a{
+  color: black;
+  font-size: 40px;
+  transition: all 0.3s ease;
+}
+.icons__item a:hover{
+  text-decoration: none;
+  color:red ;
+}
+
+.girl {
+  display: block;
+  margin: 60px auto 0;
 }
