@@ -1,76 +1,181 @@
 /*#img {*/
-  /*width: 120px;*/
-  /*padding-bottom: 70px;*/
+/*width: 120px;*/
+/*padding-bottom: 70px;*/
 /*}*/
 body {
-  font-family: 'Nanum Myeongjo', serif;
+    font-family: 'Nanum Myeongjo', serif;
 
 }
-ul, li{
-  display: block;
-  padding: 0;
-  margin: 0;
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
 }
-h1,h2,h3,h4,h5{
-  font-weight: 700;
-  color: #000000;
+
+h1, h2, h3, h4, h5 {
+    font-weight: 700;
+    color: #000000;
 }
-h2{
-  text-align: center;
+
+h2 {
+    text-align: center;
 }
+
+.title {
+    padding-top: 100px;
+    padding-bottom: 70px;
+    text-align: center;
+}
+
+.title__main {
+    font-size: 32px;
+}
+
+.title__text {
+    font-size: 20px;
+    width: 780px;
+    margin: 0 auto;
+}
+
+.yellow {
+    color: #fcdb00;
+}
+
 /*p , div, a, span{*/
-  /*line-height: 1.3em;*/
+/*line-height: 1.3em;*/
 /*}*/
+
 /*first display*/
-header{
-  background-color: #efefef;
-  color: #010101;
-  padding-top: 58px;
-  padding-bottom: 105px;
+
+header {
+    background-color: #efefef;
+    color: #010101;
+    padding-top: 58px;
+    padding-bottom: 105px;
 }
-.menu{
-margin: 0;
+
+.menu {
+    margin: 0;
 }
-.menu__item{
-  margin: 0 57px;
+
+.menu__item {
+    margin: 0 57px;
 }
-.menu__item a{
-  font-size: 30px;
-  font-weight: 700;
-  color: #000;
-  text-decoration: none;
+
+.menu__item a {
+    font-size: 30px;
+    font-weight: 700;
+    color: #000;
+    text-decoration: none;
 }
-.offer{
-  margin-top: 117px;
+
+.offer {
+    margin-top: 117px;
 }
-.offer__title{
-  font-size: 32px;
-  margin-bottom: 6px;
+
+.offer__title {
+    font-size: 32px;
+    margin-bottom: 6px;
 }
-.offer__intro{
-  font-size: 20px;
-  line-height: 1.3em;
+
+.offer__intro {
+    font-size: 20px;
+    line-height: 1.3em;
 }
-.offer__text{
-  font-size: 16px;
-  margin-top: 15px;
-  color: #555555;
-  width: 400px;
+
+.offer__text {
+    font-size: 16px;
+    margin-top: 15px;
+    color: #555555;
+    width: 400px;
 }
-.icons__item{
-  margin-right: 30px;
+
+.icons__item {
+    margin-right: 30px;
 }
-.icons__item a{
-  color: black;
-  font-size: 40px;
-  transition: all 0.3s ease;
+
+.icons__item a {
+    color: black;
+    font-size: 40px;
+    transition: all 0.3s ease;
 }
-.icons__item a:hover{
-  text-decoration: none;
-  color:red ;
+
+.icons__item a:hover {
+    text-decoration: none;
+    color: red;
 }
 
 .girl {
-  display: block;
-  margin: 60px auto 0;
+    display: block;
+    margin: 60px auto 0;
+}
+
+/*second section*/
+.feat {
+    margin-bottom: 65px;
+}
+
+.feat_icon {
+    font-size: 50px;
+    margin-right: 37px;
+    color: #000;
+}
+
+.feat__text {
+    color: #898989;
+}
+
+/*section three*/
+
+.touch {
+    background: #010101;
+    color: #fff;
+
+}
+
+.form {
+    text-align: center;
+}
+
+.form__input {
+    background: white;
+    font-size: 16px;
+    font-family: 'Nanum Myeongjo', serif;
+    border-radius: 5px;
+    width: 580px;
+    padding: 14px 0;
+    margin-right: 21px;
+    border: 0;
+    padding-left: 23px;
+    outline: none;
+}
+
+.form__btn {
+    font-family: 'Nanum Myeongjo', serif;
+    background: #fcdb00;
+    color: black;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 126px;
+    border: 0;
+    padding: 14px 0;
+    cursor: pointer;
+    outline: none;
+}
+
+/*footer*/
+.footer{
+    background: black;
+    padding: 50px 0 94px;
+}
+.credits{
+    color: white;
+    font-size: 16px;
+    width: 150px;
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
 }
